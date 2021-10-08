@@ -1,0 +1,44 @@
+.rootBox {
+    height: 755px;
+    position: relative;
+    background-color: #383838;
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #1dede2;
+    width: 300px;
+    height: 300px;
+}
+.counterBox{
+    margin: 20px;
+    padding: 20px;
+    height: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 70px;
+    background: #1dede2;
+    border-radius: 5px;
+}
+.buttonBox{
+    text-align: center;
+    border: 5px solid #1dede2;
+    border-radius: 5px;
+    margin: 20px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+button{
+    border-radius: 5px;
+    background: #1dede2;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 25px auto;
+}
+.active {
+    color: red;
+}
