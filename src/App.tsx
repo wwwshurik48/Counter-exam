@@ -8,9 +8,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   const increment = () => {
-    if(count < 5) {
       setCount(count + 1)
-    }
   }
   const reset = () => {
     setCount(0)
